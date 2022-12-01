@@ -1,0 +1,15 @@
+#include <time.h>
+#include <stdio.h>
+#include "CARD/card.h"
+#include "TERMINAL/terminal.h"
+#include "SERVER/server.h"
+#include <string.h>
+#include "APPLICATION/application.h"
+ST_cardData_t customerr;
+ST_terminalData_t termdata;
+
+int main() {
+    appStart();
+    
+    return 0;
+}
